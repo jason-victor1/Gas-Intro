@@ -1,6 +1,6 @@
 # Gas Introduction
 
-This readme provides a comprehensive introduction to gas concepts in Ethereum, covering transaction fees, gas prices, mining incentives, computational measures in transactions, and a step by step guide to sending a transaction in Ethereum’s test network.
+I created this readme to share what I've learned about gas concepts in Ethereum, covering transaction fees, gas prices, mining incentives, computational measures in transactions, and a step-by-step guide to sending a transaction in Ethereum’s test network.
 
 ## Table of Contents
 
@@ -13,16 +13,16 @@ This readme provides a comprehensive introduction to gas concepts in Ethereum, c
 
 ## Introduction to Gas
 
-When inspecting an Ethereum transaction, two terms invariably catch the glance: "transaction fee" and "gas price". This section clarifies what they are and why they matter.
+When I inspect an Ethereum transaction, two terms quickly catch my eye: "transaction fee" and "gas price". Let me clarify what they are and why they matter.
 
 ## Understanding Transaction Fees and Gas Prices
 
-- **Transaction Fee**: The amount rewarded to the block producer for processing the transaction. It is paid in Ether or GWei.
-- **Gas Price**: The cost per unit of gas specified for the transaction, defined in Ether or GWei. The higher the gas price, the greater the chance of the transaction being included in a block.
+- **Transaction Fee**: This is the amount rewarded to the block producer for processing the transaction. It's paid in Ether or GWei.
+- **Gas Price**: This is the cost per unit of gas specified for the transaction, also defined in Ether or GWei. The higher the gas price, the greater the chance of the transaction being included in a block.
 
-Gas price should not be confused with gas. While gas refers to the computational effort required to execute the transaction, gas price is the cost per unit of that effort.
+I learned that gas price should not be confused with gas. While gas refers to the computational effort required to execute the transaction, gas price is the cost per unit of that effort.
 
-When viewing transaction details, you can see further information including the `gasLimit` and `Usage by transaction`.
+When I view transaction details, I can see further information including the `gasLimit` and `Usage by transaction`.
 
 ## The Role of Nodes in Blockchain
 
@@ -40,13 +40,13 @@ In the context of transactions, gas signifies a unit of computational complexity
 - **Simple Transactions**: Sending Ether requires relatively small amounts of gas.
 - **Complex Transactions**: Minting an NFT, deploying a smart contract, or depositing funds into a DeFi protocol demand more gas due to their complexity.
 
-The total transaction fee can be calculated by multiplying the gas used with the gas price in Ether (not GWei):
+I found out that the total transaction fee can be calculated by multiplying the gas used with the gas price in Ether (not GWei):
 
 \[ \text{Transaction fee} = \text{gasPrice} \times \text{gasUsed} \]
 
 ## Hands-on: Sending an Ethereum Transaction
 
-Making a transaction requires the payment of a transaction fee to the blockchain nodes processing that transaction. Let's take an example using the MetaMask extension, a popular Ethereum wallet.
+Making a transaction requires the payment of a transaction fee to the blockchain nodes processing that transaction. Let me take you through an example using the MetaMask extension, a popular Ethereum wallet.
 
 ### Steps to Send a Transaction:
 
@@ -59,7 +59,7 @@ Making a transaction requires the payment of a transaction fee to the blockchain
 
 ### Optional Settings for Gas:
 
-If you click the market link in MetaMask, you'll see optional settings for gas in the transaction. 
+If you click the market link in MetaMask, you'll see optional settings for gas in the transaction.
 
 **Why spend more gas?**
 If many people are trying to process transactions simultaneously, the space on a given block becomes competitive. Gas prices increase to throttle and prioritize transactions during congestion.
@@ -74,16 +74,16 @@ The transaction will now appear in the Activity tab of MetaMask. You can view th
 #### Account 2
 ![Account 2](https://github.com/jason-victor1/Gas-Intro/blob/main/Account2.png?raw=true)
 
-
-After a short while, the transaction gets processed, and you can view its details in a block explorer like Etherscan as show below.
+After a short while, the transaction gets processed, and you can view its details in a block explorer like Etherscan as shown below.
 
 #### Etherscan
 ![Etherscan](https://github.com/jason-victor1/Gas-Intro/blob/main/etherscan.png?raw=true)
 
-You have now executed your first blockchain transaction!
+I have now sent my first blockchain transaction on the Sepolia test network!
 
 ## Conclusion
 
-Knowing how to process transactions with MetaMask is vital and empowers you to interact with protocols on the Ethereum network and other blockchains. Understanding the details behind these transactions and the fundamental mechanics of blockchains is crucial for mastering blockchain technology.
+Knowing how to process transactions with MetaMask is vital and empowers me to interact with protocols on the Ethereum network and other blockchains. Understanding the details behind these transactions and the fundamental mechanics of blockchains is crucial for mastering blockchain technology.
+
 
 
