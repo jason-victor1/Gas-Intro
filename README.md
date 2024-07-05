@@ -42,7 +42,15 @@ In the context of transactions, gas signifies a unit of computational complexity
 
 I found out that the total transaction fee can be calculated by multiplying the gas used with the gas price in Ether (not GWei):
 
-\[ \text{Transaction fee} = \text{gasPrice} \times \text{gasUsed} \]
+Transaction Fee = Gas Used × Gas Price
+
+Where:
+- **Gas Used** is the amount of gas consumed by the transaction.
+- **Gas Price** is the cost per unit of gas, typically measured in Ether.
+
+For example, if a transaction uses 21,000 gas units and the gas price is 0.00000002 Ether per gas unit, the transaction fee would be:
+
+Transaction Fee = 21,000×0.00000002 = 0.00042 Ether
 
 ## Hands-on: Sending an Ethereum Transaction
 
