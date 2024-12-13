@@ -77,15 +77,15 @@ If many people are trying to process transactions simultaneously, the space on a
 The transaction will now appear in the Activity tab of MetaMask. You can view the transaction details as shown below:
 
 #### Account 1
-![Account 1](https://github.com/jason-victor1/Gas-Intro/blob/main/Account1.png?raw=true)
+![Account 1](https://github.com/jason-victor1/Gas-Intro/blob/main/Account1_updated.png?raw=true)
 
 #### Account 2
-![Account 2](https://github.com/jason-victor1/Gas-Intro/blob/main/Account2.png?raw=true)
+![Account 2](https://github.com/jason-victor1/Gas-Intro/blob/main/Account2_updated.png?raw=true)
 
 After a short while, the transaction gets processed, and you can view its details in a block explorer like Etherscan as shown below.
 
 #### Etherscan
-![Etherscan](https://github.com/jason-victor1/Gas-Intro/blob/main/etherscan.png?raw=true)
+![Etherscan](https://github.com/jason-victor1/Gas-Intro/blob/main/Etherscan_updated.png?raw=true)
 
 I have now sent my first blockchain transaction on the Sepolia test network!
 
